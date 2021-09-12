@@ -1,9 +1,9 @@
 let mode;
 mode = localStorage.getItem('mode');
 
-if (mode ==== 'light'){
+if (mode === 'light') {
     lightMode();
-}else{
+} else {
     darkMode();
 }
 
