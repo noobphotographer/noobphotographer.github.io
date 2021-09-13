@@ -9,9 +9,21 @@
   <link rel="stylesheet" id="kkk" type="text/css" href="css/about.css">
 	
 <script type="text/javascript">
-  
+     var i = 0;
      var j = 1;
-
+    function hy(){
+      ++i;
+      if (i % 2 != 0) {
+        document.getElementById('kkk').setAttribute('href', 'css/about.css');
+        document.getElementById('yy').setAttribute('src', 'https://img.icons8.com/plasticine/100/000000/crescent-moon.png');
+        document.getElementById('hu').style.color = "white";
+      }
+      else {
+        document.getElementById('kkk').setAttribute('href', 'css/aboutdark.css');
+        document.getElementById('yy').setAttribute('src', 'https://img.icons8.com/color/96/000000/sun--v1.png');
+        document.getElementById('hu').style.color = "black";
+      }
+    }
     function hu(){
     ++j;
     if(j%2 != 0)
