@@ -46,12 +46,12 @@ body {
 }
 
 a:visited {
-	color:#fff;
+	color: #fff;
 }
 
 .navbar-nav .nav-item a:hover {
 	text-decoration: underline;
-	color: #000;;
+	color: #000;
 }
 
 .navbar-default {
@@ -66,13 +66,12 @@ a:visited {
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
 	color: #fff;
-	text-decoration-color:#fff;
+	text-decoration-color: #fff;
 	text-decoration-line: underline;
 	font-size: 12pt;
 	font-weight: 700;
 	vertical-align: middle;
 }
-
 .navbar-light .navbar-nav .nav-link {
 	color: #fff;
 }
@@ -89,7 +88,7 @@ a:visited {
 	font: bold 27px Comic Sans MS;
 	color: rgba(255, 255, 255, 1);
 	position: absolute;
-	left: 5% ;
+	left: 5%;
 	top: 15%;
 	z-index: 3;
 }
@@ -133,7 +132,7 @@ a:visited {
 	.navbar-light .navbar-nav .nav-link.active,
 	.navbar-light .navbar-nav .nav-link.show,
 	.navbar-light .navbar-nav .show>.nav-link {
-		color:#fff;
+		color: #fff;
 		text-decoration-color: #fff;
 		text-decoration-line: underline;
 		font-size: 30px;
