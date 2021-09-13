@@ -1,6 +1,6 @@
 body {
 	padding: 90px 0 0 0;
-	border: 1vh solid white;
+	border: 1vh solid #fff;
 	z-index: 7;
 	background-color: rgba(255, 255, 255, 0);
 }
@@ -29,7 +29,7 @@ li {
 }
 
 .navbar-nav .nav-item a {
-	color: white;
+	color: #fff;
 	font-family: "Open Sans";
 	font-weight: 400;
 	font-size: 12pt;
@@ -39,11 +39,11 @@ li {
 
 .navbar-nav .nav-item a:hover {
 	text-decoration: underline;
-	color: black;
+	color: #000;
 }
 
 a:visited {
-	color: white;
+	color: #fff;
 }
 
 .navbar-default {
@@ -57,8 +57,8 @@ a:visited {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
-	color: white;
-	text-decoration-color: white;
+	color: #fff;
+	text-decoration-color: #fff;
 	text-decoration-line: underline;
 	font-size: 12pt;
 	font-weight: 700;
@@ -66,7 +66,7 @@ a:visited {
 }
 
 .navbar-light .navbar-nav .nav-link {
-	color: white;
+	color: #fff;
 }
 
 .nav-link {
@@ -78,12 +78,10 @@ a:visited {
 	padding: 0;
 }
 
-.dropup,
-.dropright,
-.dropdown,
-.dropleft {
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
+
+.dropdown {
+	padding-left: .5rem;
+	padding-right: .5rem;
 }
 
 #footer {
@@ -92,7 +90,7 @@ a:visited {
 	height: 3rem;
 	text-align: center;
 	background-color: #000;
-	color: white;
+	color:#fff;
 }
 
 
@@ -121,8 +119,8 @@ a:visited {
 	.navbar-light .navbar-nav .nav-link.active,
 	.navbar-light .navbar-nav .nav-link.show,
 	.navbar-light .navbar-nav .show>.nav-link {
-		color: white;
-		text-decoration-color: white;
+		color: #fff;
+		text-decoration-color: #fff;
 		text-decoration-line: underline;
 		font-size: 30px;
 		vertical-align: middle;
