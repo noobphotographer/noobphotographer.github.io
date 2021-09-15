@@ -47,7 +47,7 @@ a:visited {
 }
 
 .navbar-default {
-	background: rgba(102, 0, 180, 1);
+	background: rgb(0, 0, 0);
 	font-family: "Open Sans";
 	font-weight: 400;
 	font-size: 12pt;
@@ -74,8 +74,8 @@ a:visited {
 }
 
 .navbar {
-	min-height: 56px;
-	padding: 0;
+	min-height: 54px;
+	padding: 0px;
 }
 
 
@@ -126,10 +126,7 @@ a:visited {
 		color: #fff;
 	}
 
-	.navbar-brand {
-		padding: 0 600px 0 0;
-		color: #000;
-	}
+	
 
 	.navbar-default {
 		background: none;
@@ -238,7 +235,9 @@ a:visited {
 	#yy {
 		right: 20px;
 		top: 20px;
+		width: 120px;
 	}
+	
 
 	.container {
 		max-width: 90vw;
